@@ -1,0 +1,98 @@
+/*** Custom Main Styles ***/
+h1 {
+	line-height: 1.2;
+	margin: 25px 0 0 ;
+}
+
+h2 {
+	color: #f8981c;
+	font: 400 2.3em;
+}
+
+h3 {
+	color: #bcbbbb;
+	font: 400 1.8em;
+}
+
+h4 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+header {
+	margin: 0 0 -10px 0;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+/*** Footer Custom Styles ***/
+footer p {
+	margin: 15px 0 0;
+	font-size: 1.6em;
+
+}
+
+/*** Logo class styles ***/
+.logo {
+	margin: 25px;
+
+}
+
+/*** Breakpoints for responsive web design ***/
+@media screen and (max-width: 1005px) {
+
+	.col-md-9 {
+		float: left;
+		width: 75%;
+	}
+
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+
+	.col-md-12 {
+		float: left;
+		width: 100%;
+	}
+
+	.float-right {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.col-sm-12 {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 35px;
+	}
+
+	.header {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+
+	.logo {
+		margin: 35px auto;
+	}
+
+	.center-text {
+		margin: 10px auto;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.image-small {
+		margin: 0 auto;
+		height: 250px;
+		width: 300px;
+		padding: 10px;
+	}
+}
+
+
